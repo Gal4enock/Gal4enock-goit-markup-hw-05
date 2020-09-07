@@ -69,7 +69,7 @@ a, .exampel-list a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    transition: all 250ms linear;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav a:hover, .site-nav a:focus, .site-address a:hover, .site-address a:focus
 {
@@ -87,7 +87,7 @@ a, .exampel-list a {
     border: 1px solid transparent;
     cursor: pointer;
     font-weight: 500;
-    transition: all 250ms linear;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-hero {
     font-weight: 700;
@@ -473,7 +473,7 @@ header {
     background-size: 44px;
     border-radius: 50%;
     fill: #AFB1B8;
-    transition: all 250ms linear;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover, .social-link:focus {
     fill: var(--other-color);
@@ -557,11 +557,11 @@ header {
     left: 0;
     opacity: 0;
     transform: translateY(100%);
-    transition: all 500ms linear;
+    transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .lists {
     position: relative;
-    transition: all 250ms linear;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
 }
 .exampel-list li:hover .overlay {
