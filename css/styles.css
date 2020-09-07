@@ -512,8 +512,8 @@ header {
 }
 .exampel-list > li {
     width: 370px; 
-    position: relative;
-    transition: all 250ms linear;
+    /* position: relative;
+    transition: all 250ms linear; */
      
 }
 .card-description {
@@ -529,8 +529,8 @@ header {
 .overlay {
     padding: 63px 24px;
     margin-right: 0;
-    width: 370px;
-    height: 294px;
+    width: 100%;
+    height: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -544,6 +544,11 @@ header {
     opacity: 0;
     transform: translateY(100%);
     transition: all 500ms linear;
+}
+.lists {
+    position: relative;
+    transition: all 250ms linear;
+    overflow: hidden;
 }
 .exampel-list li:hover .overlay {
     opacity: 1;
@@ -561,16 +566,17 @@ header {
 }
 .modal {
     display: block;
-    width: 528px;
+    width: 100%;
+    max-width: 528px;
     height: 581px;
     background-color: var(--other-color);
     position: absolute;
     left: 50%;
-    top: 229px;
+    top: 32%;
     transform: translateX(-50%)
 }
 .modal > .close {
-    display: block;
+    display: flex;
     position: absolute;
     fill: var(--title-text-color);
     padding: 0;
@@ -582,7 +588,8 @@ header {
     /* margin-left: 490px; */
     margin-top: 8px;
     right: 10px;
-   
+    align-items: center;
+    justify-content: center; 
 }
 .cross {
     width: 18px;
