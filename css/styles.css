@@ -586,7 +586,7 @@ header {
     background-color: var(--other-color);
     position: absolute;
     left: 50%;
-    top: 32%;
+    top: 21%;
     transform: translateX(-50%)
 }
 .modal > .close {
