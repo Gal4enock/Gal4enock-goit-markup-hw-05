@@ -128,6 +128,8 @@ a, .exampel-list a {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Img\ Overlayoverlay.png), url(../img/Background.jpg);
     max-width: 1600px;
     background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-title-button {
