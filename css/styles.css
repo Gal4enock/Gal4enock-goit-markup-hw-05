@@ -519,12 +519,9 @@ header {
     left: 0;
     opacity: 0;
     transform: translateY(100%);
-    transition-property: transform;
-    transition-duration: 500ms;
-    transition-timing-function: linear;
-
+    transition: all 500ms linear;
 }
-.overlay:hover {
+.exampel-list li:hover .overlay {
     opacity: 1;
     transform: translateY(0%);
 }
