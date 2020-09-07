@@ -379,7 +379,9 @@ margin-bottom: 10px;
 }
 /* Расположение шапки */
 .site-nav, nav, .site-address, .address-section {
-    display: flex;   
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;   
 }
 nav {
     justify-content: flex-start;
@@ -456,7 +458,7 @@ header {
     height: 44px;
     background-size: 44px;
     border-radius: 50%;
-    fill: var(--primery-text-color);
+    fill: #AFB1B8;
     transition: all 250ms linear;
 }
 .social-link:hover, .social-link:focus {
@@ -474,7 +476,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--primery-text-color);
+    fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     width: 170px;
