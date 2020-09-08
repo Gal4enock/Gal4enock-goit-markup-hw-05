@@ -588,7 +588,8 @@ header {
     position: absolute;
     left: 50%;
     top: 21%;
-    transform: translateX(-50%) scale(1)
+    transform: translateX(-50%) scale(1);
+    transition: 0.7s;
 }
 .modal > .close {
     display: flex;
